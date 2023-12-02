@@ -736,7 +736,7 @@
         }
 
         div#n2-ss-2-shape-divider-bottom {
-            height: 100px
+            height: 63px
         }
 
         @media (min-width: 1200px) {
@@ -3183,44 +3183,64 @@
     </script>
 </head>
 
+<div id="landing-page">
+    <button class="enter-button" style="                                                                    font-family: ''circular'', sans-serif;
+                                        
+    ">ENTER</button>
+  </div>
+<body style="background-color: rgb(6, 1, 28);     height: 100%;" id="stop-scrolling" class="site com_content wrapper-static view-featured no-layout no-task itemid-101">
+    <audio id="background-audio" autoplay="true" loop="true">
+        <source src="./SOUND.mp3" type="audio/mp3">Your browser does not
+        support the audio element.
+    </audio>
 
-<body style="background-color: rgb(6, 1, 28);" id="stop-scrolling" class="site com_content wrapper-static view-featured no-layout no-task itemid-101">
-
-
-    <header class="header container-header full-width">
+    <!-- <header class="header container-header full-width">
 
 
 
 
-    </header>
+    </header> -->
     <Style>
-        #landing-page {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    background-image: url(./main.gif);
-    background-position: center;
-    background-size: cover;
+       #landing-page {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 100%;
+          /* width: 100%; */
+          background-image: url(./assets/Footer\ Bg.gif);
+          background-position: center;
+          background-size: cover;
+          
+        }
+        #main-content {
+          display: none;
+          /* padding: 20px; */
+        }
+        .enter-button {
+          padding: 20px;
+          font-size: 10rem;
+          color: #c4c4c4;
+          background-color: #ff000000;
+          border: none;
+          cursor: pointer;
+          margin-top: 35%;
+          font-family: circular;
+        }
+        .enter-button:hover {
+          padding: 20px;
+          font-size: 10rem;
+          color: #fff;
+          background-color: #ff000000;
+          border: none;
+          cursor: pointer;
 }
-.enter-button {
-    padding: 20px;
-    font-size: 10rem;
-    color: #c4c4c4;
-    background-color: #ff000000;
-    border: none;
-    cursor: pointer;
-    font-family: circular;
-}
+
     </Style>
-    <!-- <div id="landing-page">
-        <button class="enter-button" style="                                                                    font-family: ''circular'', sans-serif;
-                                            
-        ">ENTER</button>
-      </div> -->
+     
+  
 
 
-    <div class="site-grid">
+    <div class="site-grid"  id="main-content" >
         <div class="container-banner full-width">
             <div>
                 <div class="n2-section-smartslider fitvidsignore  n2_clear" data-ssid="6" tabindex="0" role="region" aria-label="Slider">
@@ -3434,10 +3454,11 @@
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                        <div id="n2-ss-2-shape-divider-bottom" class="n2-ss-shape-divider n2-ss-shape-divider-bottom" data-ss-sd-animate="0" data-ss-sd-scroll="0" data-ss-sd-speed="100" data-ss-sd-side="bottom">
+                                                            <div class="n2-ss-shape-divider-inner"><img src="./separation1.png"></div>
+                                                        </div>
                                                     </div>
-                                                    <div id="n2-ss-2-shape-divider-bottom" class="n2-ss-shape-divider n2-ss-shape-divider-bottom" data-ss-sd-animate="0" data-ss-sd-scroll="0" data-ss-sd-speed="100" data-ss-sd-side="bottom">
-                                                        <div class="n2-ss-shape-divider-inner"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 120" preserveAspectRatio="none"> <path fill='rgb(132,84,181)' ease="easeOutQuad" duration="1" d="M1920,122L1920,120L1450,50L0,120L0,122z"></path></svg></div>
-                                                    </div>
+                                                   
                                                 </div>
                                             </div>
                                         </div>
@@ -3450,13 +3471,25 @@
                     </div>
                     <div>
                         <ss3-force-full-width data-overflow-x="body" data-horizontal-selector="body">
+                            
                             <div class="n2-section-smartslider fitvidsignore  n2_clear" data-ssid="3">
+                                
                                 <div id="n2-ss-3-align" class="n2-ss-align">
+                                    
+                                    
                                     <div class="n2-padding">
+                                        
+                                        
                                         <div id="n2-ss-3" data-creator="Smart Slider 3" data-responsive="fullwidth" class="n2-ss-slider n2-ow n2-has-hover n2notransition  ">
+                                         
                                             <div class="n2-ss-slider-1 n2-ow" style="">
+                                                
+
+                                                
                                                 <div class="n2-ss-slider-2 n2-ow">
+                                                    
                                                     <div class="n2-ss-slide-backgrounds n2-ow-all">
+                                                        
                                                         <div class="n2-ss-slide-background" data-public-id="1" data-mode="fill">
                                                             <!-- <div class="n2-ss-slide-background-image" data-blur="0" data-opacity="32" data-x="50" data-y="50" data-alt="" data-title="" style="opacity:0.32">
                                                                 <picture class="skip-lazy" data-skip-lazy="1"><img src="assets/Footer Bg.gif" alt="" title="" loading="lazy" class="skip-lazy" data-skip-lazy="1"></picture>
@@ -3520,7 +3553,6 @@
                                                                                                 </div>
                                                                                                 <div class="n2-ss-layer n2-ow n-uc-1015b6e9cf512" data-pm="normal" data-sstype="layer">
                                                                                                     <div id="n2-ss-3item7" class="n2-font-c3064364be5f8affa427c1d45e68bb2f-hover   n2-ss-item-content n2-ss-text n2-ow" style="display:block;">1T Total supply<br>
-                                                                                                    <audio src="./SOUND.mp3" autoplay controls></audio>
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </div>
@@ -4202,6 +4234,13 @@
             })
         })(document, window);
     </script>
+     <script>
+        document.querySelector('.enter-button').addEventListener('click', function() {
+          document.getElementById('landing-page').style.display = 'none';
+          document.getElementById('main-content').style.display = 'block';
+          document.getElementById('background-audio').play();
+        });
+      </script>
 </body>
 
 
